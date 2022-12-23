@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(135, 79, 44);
+}
+
+.container{
+    background-color: rgb(192, 147, 90);
+}
+
+#display{
+    background-color: rgb(59, 49, 66);
+    color: aliceblue;
+    height:110px; 
+    font-size: 120px;
+    font-weight: 300;
+    border: 10px dotted rgb(52, 46, 46);
+}
+
+.btn1,.clr,.equal{
+    width: 320px;
+    height:90px; 
+    justify-content: space-between;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+
+.btn1:hover {
+    background-color: rgb(103, 54, 54);
+    box-shadow: 0px 0px 4px 6px rgb(103, 54, 54);
+    border: 5px dotted rgb(14, 12, 12);
+    transition: 0.5s;
+}
+
+.clr:hover{
+    background-color: rgb(207, 37, 37);
+    box-shadow: 0px 0px 4px 6px rgb(216, 76, 76);
+    border: 5px dotted rgb(14, 12, 12);
+    transition: 0.5s;
+}
+
+.equal:hover{
+    background-color: rgb(45, 175, 13);
+    box-shadow: 0px 0px 4px 6px rgb(104, 238, 100);
+    border: 5px dotted rgb(14, 12, 12);
+    transition: 0.5s;
+}
